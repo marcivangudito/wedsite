@@ -1,0 +1,323 @@
+body {
+    font-family: 'open sans';
+    text-align: center;
+}
+
+/* style sa footer! */
+.footer {
+    text-align: center;
+    margin-top: 100px;
+    background: #222;
+    color: white;
+    padding: 20px;
+}
+/* about us style */
+#Home {
+    justify-self: center;
+    padding: 50px;
+    margin-top: 50px;
+    width: 700px;
+    background-color: #333;
+    color: #a17a3f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+}
+
+
+/* about and menu page style and dimensions */
+.about-style {
+    justify-self: center;
+    width: 1340px;
+    height: 2500px;
+}
+
+.menu-style {
+    justify-self: center;
+    width: 1340px;
+    height: 3200px;
+}
+.menu-items {
+    justify-self: center;
+    float: left;
+    margin-left: 35px;
+}
+
+.menu-desc {
+    width: 400px;
+    height: 500px;
+    text-align: left;
+}
+
+.menu-desc img {
+    height: 325px;
+    width: 400px;
+    border-radius: 7px;
+}
+
+.menu-desc button {
+    width: 100px;
+    height: 40px;
+    float: right;
+    margin-top: -75px;
+    color: #fff;
+    background-color: #af7f1e;
+    border-radius: 7px;
+    border: none;
+}
+
+.menu-desc button:hover {
+    background-color: #70531a;
+}
+/* img and about-us dimensions and styles ! */
+.about-us {
+    margin-top: 650px;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.about-us input {
+    background-color: #000000;
+    color: #fff;
+    border-radius: 7px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    margin-top: 80px;
+    font-size: large;
+    font-family: 'open sans';
+}
+
+.about-us input:hover {
+    background-color: #1f1e1e;
+}
+
+.about-us img{
+    width: 650px;
+    height: 525px;
+    border-radius: 10px;
+    margin-top: -100%;
+    margin-left: 625px;
+}
+/* home burger moments style! */
+.moments {
+    justify-self: center;
+    float: left;
+    margin-left: 12px;
+}
+
+.moments img {
+    width: 600px;
+    height: 400px;
+    padding: 30px;
+    border-radius: 45px;
+}
+
+.moments-desc{
+    width: 650px;
+    height: 550px;
+}
+
+.moments-desc h3, .moments-desc p {
+    margin-left: 30px;
+    text-align: left;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+/* style ni sa navbar ha! kaning naa sa babaw*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+
+li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-family: 'open sans';
+}
+
+#login a {
+    background-color: black;
+    color: #fff;
+}
+
+li a:hover {
+    background-color: #ccc;
+}
+
+li #logo:hover {
+    background-color: white;
+}
+
+#logo img {
+    width: 60px;
+    height: 60px;
+    margin-top: -20px;
+}
+
+/* H1 margins homepage / style sa h1 ni*/
+#h1-text-home {
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'open sans';
+    margin-left: 35px;
+    margin-top: 40px;
+}
+
+/* signup Form eyyyyy */
+
+input[type=text], input[type=password], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  background-color: #cecdcd;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+    justify-self:center;
+    width: 1300px;
+}
+
+.container-fname {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 350px;
+    text-align: left;
+    justify-self: auto;
+}
+
+.container-lname {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 22px;
+    justify-self: auto;
+}
+
+.container-gender {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 350px;
+}
+
+.container-date {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 330px;
+    margin-top: -63.5px;
+}
+
+.container-email {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 350px;
+    text-align: left;
+}
+
+.container-number {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 21.5px;
+    margin-top: 21.5px;
+}
+
+.container-password {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 350.02px;
+    text-align: left;
+}
+
+.container-confirm {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 21.5px;
+}
+
+.container-country {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: 510px;
+    justify-content: center;
+}
+/* login ni HA! organize yee */
+.login-container {
+    width: 800px;
+    height: 650px;
+    justify-self: center;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    background-image: url("PICS/background.png");
+}
+
+.login-container a, .login-container p {
+    margin-top: 60px;
+    text-decoration: none;
+}
+
+.login-containers {
+    background-color: none;
+    width: 450px;
+    justify-self: center;
+}
+
+.login-containers button {
+    width: 250px;
+    height: 40px;
+    margin: 15px;
+    background-color: transparent;
+    text-align: center;
+    font-family: 'open sans';
+    font-weight: bold;
+}
+
+.login-containers button:hover {
+    background-color: #dfdede;
+}
